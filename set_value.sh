@@ -7,11 +7,11 @@ if [ "$1" == "" ]; then
     echo "Usage $0 \"value\""
     exit 1
 fi
-VALUE="$1"
+VALUE = "$1"
 
-API_KEY="53b93e7ca0184b098b31943fe14f9b77"
-THING_ID="1b6eac8e233711e69b064b58a7906d4e"
-PROPERTY_ID="443a6651233711e69b064b58a7906d4e"
+API_KEY = "xxxxxxxxxxxxxxxxxxxxxxx"
+THING_ID = "xxxxxxxxxxxxxxxxxxxxxxx"
+PROPERTY_ID = "xxxxxxxxxxxxxxxxxxxxxxx"
 
 URL="http://api.gadgetkeeper.com"
 TMP_FILE="/tmp/tmp.txt"
